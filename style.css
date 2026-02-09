@@ -27,15 +27,15 @@
 }
 
 :root {
-	--background: #0c0424; /* Темний графіт */
-	--header: linear-gradient(-135deg, #000000, #133528, #91f9e8); /* Від чорного до вогняного */
-	--btn: #0ec043; /* Неоновий червоний */
-	--promo: rgba(9, 73, 54, 0.1);
-	--table: rgba(52, 29, 69, 0.95);
+	--background: #050b1f;
+	--header: linear-gradient(-135deg, #000000, #1e3a8a, #ffffff);
+	--btn: #2563eb;
+	--promo: rgba(239, 68, 68, 0.15);
+	--table: rgba(30, 41, 59, 0.9);
 	--white: #fef2f2;
-	--black: #0a0a0a;
+	--black: #080a0f;
 	--title: #ffffff;
-	--btn-accent: linear-gradient(135deg, #f171f8, #dc2626);
+	--btn-accent: linear-gradient(135deg, #f87171, #991b1b);
 }
 
 * {
@@ -149,9 +149,10 @@ header img {
 .white-btn {
 	padding: 10px 20px;
 	font-size: 1.2rem;
-	border: 1px solid var(--white);
+	background: var(--white);
+	border: 3px solid var(--btn);
 	border-radius: 0 10px;
-	color: var(--white);
+	color: var(--black);
 	margin-right: 50px;
 }
 
@@ -161,6 +162,7 @@ header img {
 	background-color: var(--btn);
 	color: var(--title);
 	border: 2px solid rgba(255, 255, 255, 0.8);
+	box-shadow: 3px 2px 3px var(--white);
 	border-radius: 10px 0;
 	text-align: center;
 }
